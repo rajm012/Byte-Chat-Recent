@@ -1008,24 +1008,24 @@ span a:hover {
     font-size: 1rem;
     padding: 0 10px;
   }
+@media (max-width: 480px) {
 
-  /* EMAIL FORM (CRITICAL FIX) */
   .email-form {
-    flex-direction: column;
-    width: 100%;
-    padding: 10px;
+    flex-direction: row;
+    padding: 6px;
   }
 
   .email-form input {
-    width: 100%;
-    font-size: 16px;
-    padding: 14px;
+    flex: 1;
+    font-size: 14px;
+    padding: 10px 12px;
   }
 
   .email-form button {
-    width: 100%;
-    padding: 14px;
+    padding: 10px 14px;
+    font-size: 12px;
   }
+}
 
   /* FEATURES */
   .features {
