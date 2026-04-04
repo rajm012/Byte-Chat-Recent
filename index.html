@@ -8,9 +8,21 @@
     <link rel="stylesheet" href="styles.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Satoshi:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
 </head>
 <body>
+
+    <div class="bg-wrapper">
+        <div class="bg-gradient"></div>
+        <div class="bg-glow"></div>
+    </div>
+
     <!-- Navigation -->
     <nav class="navbar">
         <div class="nav-container">
@@ -19,9 +31,12 @@
             </div>
             <div class="nav-links">
                 <a href="#features">Features</a>
-                <a href="#about">About</a>
-                <a href="#contact">Contact</a>
+                <a href="#about">About Us</a>
+                <a href="#contact">Contact Us</a>
             </div>
+
+            <a href="#earlyAccessForm" class="nav-cta">Get Access</a>
+
         </div>
     </nav>
 
@@ -34,43 +49,21 @@
                 </div>
                 <h1 class="hero-title">
                     Campus Conversations, <br>
-                    <span class="highlight">Built for Students</span>
+                    <span class="title-line-2 highlight">Built for Students</span>
                 </h1>
                 <p class="hero-subtitle">
-                    The private social communication layer for campus life. 
-                    Real-time chat, anonymous expression, and community collaboration in one trusted space.
+                    The secure social chatting platform for your college.<br>
+                     Chat in real time, express yourself anonymously, and work together in one safe environment.
                 </p>
                 <div class="hero-cta">
-                    <form class="email-form" id="earlyAccessForm">
-                        <input type="email" placeholder="Enter your email for early access" required>
-                        <button type="submit">Get Early Access</button>
-                    </form>
-                    <p class="form-note">Join students waiting for the future of campus communication</p>
+                        <form class="email-form centered-form" id="earlyAccessForm">
+                            <input type="email" placeholder="Enter your email" required>
+                            <button type="submit">Join Waitlist</button>
+                        </form>
+                    <!-- <p class="form-note">Join other students waiting for the future of campus communication.</p> -->
                 </div>
             </div>
-            <div class="hero-visual">
-                <div class="phone-mockup">
-                    <div class="phone-screen">
-                        <div class="chat-preview">
-                            <div class="chat-header">
-                                <span class="campus-name">IIT Mandi</span>
-                                <span class="online-indicator"></span>
-                            </div>
-                            <div class="chat-messages">
-                                <div class="message received">
-                                    <span class="message-text">Hey! Anyone up for study group?</span>
-                                </div>
-                                <div class="message sent">
-                                    <span class="message-text">Count me in! When & where?</span>
-                                </div>
-                                <div class="message anonymous">
-                                    <span class="anon-badge">🎭</span>
-                                    <span class="message-text">Library 3pm works!</span>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+        
             </div>
         </div>
     </section>
@@ -118,7 +111,7 @@
     </section>
 
     <!-- About Section -->
-    <section class="about" id="about">
+    <!-- <section class="about" id="about">
         <div class="container">
             <div class="about-content">
                 <div class="about-text">
@@ -166,42 +159,182 @@
                 </div>
             </div>
         </div>
-    </section>
+    </section> -->
+<section class="team" id="about">
+  <div class="team-container">
 
-    <!-- CTA Section -->
-    <section class="cta">
-        <div class="container">
-            <div class="cta-content">
-                <h2>Ready to Transform Campus Communication?</h2>
-                <p>Be the first to experience the future of student social interaction.</p>
-                <form class="cta-form" id="ctaForm">
-                    <input type="email" placeholder="Your campus email" required>
-                    <button type="submit">Join the Waitlist</button>
-                </form>
-                <div class="social-links">
-                    <a href="#" aria-label="Twitter">𝕏</a>
-                    <a href="#" aria-label="Instagram">📷</a>
-                    <a href="#" aria-label="LinkedIn">in</a>
-                </div>
+    <div class="team-section-header">
+                <h1>Meet Our Team</h1>
+                <p>ByteChat is built by a passionate team of student developers from IIT Mandi to redefine how conversations happen</p>
             </div>
-        </div>
-    </section>
 
-    <!-- Contact Section -->
+    <!-- Top Row -->
+    <div class="row top">
+      <div class="team-card"><div class="team-header">
+  <div class="avatar blue">DJ</div>
+  <div>
+    <h3>Divyansh Jain</h3>
+    <p>Team Lead & Database Engineer</p>
+        </div>
+        </div>
+
+        <p class="team-desc">
+        Database design and ensuring efficient, scalable data management. Integration between frontend and backend, and coordinating with the team for smooth project execution.
+        </p>
+
+        <div class="tags">
+        <span>Next.js</span>
+        <span>React</span>
+        <span>Project Management</span>
+        <span>Team Coordination</span>
+        
+        
+        </div>
+
+        <div class="email">
+        ✉ b23397@students.iitmandi.ac.in
+        </div>
+        </div>
+      <div class="team-card">
+        <div class="team-header">
+            <div class="avatar purple">RM</div>
+            <div>
+                <h3>Raj Maurya</h3>
+                <p>Backend Developer</p>
+            </div>
+            </div>
+
+            <p class="team-desc">
+            Built scalable APIs and real-time communication systems. Developing 
+            backend services, implementing WebSocket connections, and ensuring smooth server-side operations.
+            </p>
+
+            <div class="tags">
+            <span>Express.js</span>
+            <span>Socket.io</span>
+            <span>Real-time Communication</span>
+            <span>Anonymous Chat Systems</span>
+            </div>
+
+            <div class="email">
+            ✉ b23406@students.iitmandi.ac.in
+            </div>
+      </div>
+      <div class="team-card">
+        <div class="team-header">
+  <div class="avatar pink">SP</div>
+  <div>
+    <h3>Siddhi Pogakwar</h3>
+    <p>Frontend Developer</p>
+  </div>
+</div>
+
+<p class="team-desc">
+  Building responsive and user-friendly frontend interfaces. Focused on writing clean code and creating designs that are both functional and visually appealing.
+</p>
+
+<div class="tags">
+  <span>Next.js</span>
+  <span>React</span>
+  <span>UI Components</span>
+  <span>TypeScript</span>
+  <span>Tailwind CSS</span>
+  
+</div>
+
+<div class="email">
+  ✉ b23415@students.iitmandi.ac.in
+</div>
+      </div>
+    </div>
+
+    <!-- Bottom Row -->
+    <div class="row bottom">
+      <div class="team-card">
+        <div class="team-header">
+            <div class="avatar orange">VT</div>
+            <div>
+                <h3>Vyom Thacker</h3>
+                <p>Frontend Developer</p>
+            </div>
+            </div>
+
+            <p class="team-desc">
+              Creating responsive and intuitive user interfaces with modern design principles, ensuring the frontend is both functional and visually appealing.
+            </p>
+
+            <div class="tags">
+            <span>React</span>
+            <span>Next.js</span>
+            <span>Component Architecture</span>
+            <span>TypeScript</span>
+            <span>Tailwind CSS</span>
+            
+            </div>
+
+            <div class="email">
+            ✉ b23417@students.iitmandi.ac.in
+            </div>
+      </div>
+      <div class="team-card">
+        <div class="team-header">
+  <div class="avatar green">AG</div>
+  <div>
+    <h3>Anamika Godara</h3>
+    <p>Database Engineer</p>
+  </div>
+</div>
+
+<p class="team-desc">
+  Designing and managing efficient databases with a focus on structured data, optimized queries, reliable performance, and backend unit testing.
+</p>
+
+<div class="tags">
+  <span>PostgreSQL</span>
+  <span>Supabase</span>
+  <span>Data Modeling</span>
+  <span>Query Optimization</span>
+  <span> Database Design</span>
+</div>
+
+<div class="email">
+  ✉ b23428@students.iitmandi.ac.in
+</div>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+    <!-- Contact Section (Get in Touch with us) -->
     <section class="contact" id="contact">
         <div class="container">
             <div class="contact-content">
-                <h2>Get in Touch</h2>
-                <p>Have questions? Want to bring ByteChat to your campus? We're here to help.</p>
+                <h2>Get in Touch With Us</h2>
+                <p>Have any questions? Or want to bring ByteChat to your campus? 
+                    <br>Contact us. We're here to help.</p>
                 <div class="contact-info">
                     <div class="contact-item">
                         <span class="contact-icon">📧</span>
-                        <span>hello@bytechat.in</span>
+                        <span>
+                            <a href="mailto:contact@bytechat.in">contact@bytechat.in</a>
+                        </span>
                     </div>
                     <div class="contact-item">
                         <span class="contact-icon">🌐</span>
-                        <span>bytechat.in</span>
+                        <span>
+                            <a href='https://bytechat.in' target='_blank'>bytechat.in</a>
+                        </span>
                     </div>
+                    <div class="contact-item">
+                        <span class="contact-icon">
+                            <i class="fa-brands fa-instagram"></i>
+                        </span>
+                        <span>
+                            <a href='https://instagram.com/bytechat.in' target='_blank'>bytechat.in</a>
+                        </span>
+                    </div>
+                </div>
                 </div>
             </div>
         </div>
@@ -240,10 +373,10 @@
         <div class="modal-content">
             <div class="modal-header">
                 <span class="modal-close">&times;</span>
-                <h3>You're on the list!</h3>
+                <h3>Thanks for signing up!</h3>
             </div>
             <div class="modal-body">
-                <p>Thanks for signing up! We'll keep you updated on ByteChat's launch and early access opportunities.</p>
+                <p>You're on the list. We'll keep you updated on ByteChat's launch and early access opportunities.</p>
             </div>
         </div>
     </div>
