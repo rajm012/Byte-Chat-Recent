@@ -85,15 +85,8 @@ This website is ready to deploy on any static hosting service:
 
 ## 🎨 Design System
 
-### Colors
-- Primary: Indigo (#6366f1)
-- Secondary: Pink (#ec4899)
-- Accent: Teal (#14b8a6)
-- Text: Gray (#1f2937, #6b7280)
-- Background: White and light grays
-
 ### Typography
-- Font: Inter (Google Fonts)
+- Font: Montserrat, Roboto, Poppins, Inter (Google Fonts)
 - Weights: 300-800
 - Sizes: Responsive scaling from mobile to desktop
 
