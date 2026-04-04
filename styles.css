@@ -1000,31 +1000,42 @@ span a:hover {
   }
 
   .hero-title {
-    font-size: 2.2rem;
-    letter-spacing: -1px;
-  }
-
+  font-size: clamp(1.8rem, 5vw, 2.5rem);
+  letter-spacing: -1px;
+}
   .hero-subtitle {
     font-size: 1rem;
     padding: 0 10px;
   }
-@media (max-width: 480px) {
 
   .email-form {
-    flex-direction: row;
-    padding: 6px;
-  }
+  display: flex;
+  flex-direction: column; /* ALWAYS column on mobile */
+  gap: 10px;
 
-  .email-form input {
-    flex: 1;
-    font-size: 14px;
-    padding: 10px 12px;
-  }
+  background: rgba(255,255,255,0.7);
+  backdrop-filter: blur(20px);
 
-  .email-form button {
-    padding: 10px 14px;
-    font-size: 12px;
-  }
+  border-radius: 20px;
+  padding: 10px;
+
+  width: 100%;
+  max-width: 420px;
+  margin: 0 auto;
+}
+
+.email-form input { 
+  width: 100%;   /* CRITICAL FIX */
+  padding: 14px;
+  border-radius: 12px;
+  font-size: 16px;
+}
+
+.email-form button {
+  width: 100%;
+  padding: 14px;
+  border-radius: 12px;
+  font-size: 15px;
 }
 
   /* FEATURES */
